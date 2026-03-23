@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
+    "@google/genai": "^1.46.0",
     "drizzle-zod": "^0.8.3",
     "p-limit": "^7.3.0",
     "p-retry": "^7.1.1",
