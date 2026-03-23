@@ -39,5 +39,5 @@ externalPort = 80
 channel = "stable-25_05"
 
 [deployment]
-deploymentTarget = "cloudrun"
-run = ["sh", "-c", "node app.mjs"]
+deploymentTarget = "autoscale"
+run = ["node", "app.mjs"]
